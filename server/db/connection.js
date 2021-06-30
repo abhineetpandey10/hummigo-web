@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const URI='mongodb+srv://hummigo:hummigo@cluster0.efavu.mongodb.net/websitedata?retryWrites=true&w=majority';
+const URI=MONGO_DB_CONNECTION_STRING;
 
 const connectDB=async()=>
 {
