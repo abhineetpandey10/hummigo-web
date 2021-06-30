@@ -77,7 +77,12 @@ Organisations that provide healthcare services, both online and offline, and are
 
 ![image](https://user-images.githubusercontent.com/54185164/123969670-109ebf80-d9d6-11eb-9be4-6982481bb76a.png)
 
+### Deployment
+***
+View the deployment [here](https://hummigo.herokuapp.com/)
+
 ### Our contribution in creating a healthier and happier society
+***
 
 We believe that regular monitoring of daily health and abiding strictly to medication and exercise discipline can greatly improve the conditions of people suffering from chronic disorders or prolonged dieases like diabetes, Parkinson's, High Blood Pressure and can be extremely effective in preventing lifestyle diseases in individuals who are prone to them due to their unhealthy lifestyle or lack of adherence to medical discipline. Easier monitoring and better management of daily health can prevent or at the very least, delay the progression of such diseases into their advanced stages. And therefore, we have come up with a one-stop solution for monitoring and better management of daily health.
 
