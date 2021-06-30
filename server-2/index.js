@@ -11,6 +11,6 @@ app.use(cors());
 app.use("/",addreview);
 app.use("/",enquire);
 app.use("/",aggregate);
-app.listen(process.env.PORT || 3001, ()=>{
+app.listen(process.env.PORT || 3002, ()=>{
     console.log("Node JS Server started"); 
 })
