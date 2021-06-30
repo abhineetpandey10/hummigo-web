@@ -64,8 +64,6 @@ Users can share and read Blogs and Stories about topics they are interested in. 
 
 ![image](https://user-images.githubusercontent.com/54185164/123969530-f1079700-d9d5-11eb-985f-a2e9e8f1daea.png)
 
-##### What's happening under the hood?
-
 
 #### 2. **Hummigo apk and User Feedback**
 Users can download the apk of the official Hummigo app through our website, and give their ratings and reviews about it, which helps us to iterate over our solution and improve it, and also motivates us to keep working in this direction.
@@ -76,6 +74,10 @@ Users can download the apk of the official Hummigo app through our website, and 
 Organisations that provide healthcare services, both online and offline, and are interested in partnering with us, can apply through our Partners Page for exploring the possibilities of partnerships with us.
 
 ![image](https://user-images.githubusercontent.com/54185164/123969670-109ebf80-d9d6-11eb-9be4-6982481bb76a.png)
+
+### Credits
+***
+The NLP based Machine Learning model used for finding out the user preferences in Blogs and Stories was created by [Varenya Srivastava](https://www.linkedin.com/in/varenya-srivastava-36438b204/). Varenya is pursuing his bachelor's in Computer Science and Engineering from IIT Kanpur. This Machine Learning Model works on the principle of a modified version of the Rapid Automatic Keyword Extraction[RAKE, Rose, et al.] called FRAKE[Salmasi, et al]. The research paper can be found at https://arxiv.org/abs/2104.04830.
 
 ### Deployment
 ***
