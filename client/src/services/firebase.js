@@ -2,13 +2,13 @@ import firebase from '@firebase/app';
 import "@firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDsJFj_UI9yHbhByo7ZUrWoQNZxzQLIPVI",
-    authDomain: "hummigo-393f5.firebaseapp.com",
-    databaseURL: "https://hummigo-393f5-default-rtdb.firebaseio.com",
-    projectId: "hummigo-393f5",
-    storageBucket: "hummigo-393f5.appspot.com",
-    messagingSenderId: "1042772051232",
-    appId: "1:1042772051232:web:8efee2f993a64c7a4a0345",
+    apiKey: FIREBASE_API_KEY,
+    authDomain: FIREBASE_AUTH_DOMAIN,
+    databaseURL: FIREBASE_DATABASE_URL,
+    projectId: FIREBASE_PROJECT_ID,
+    storageBucket: FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
+    appId: FIREBASE_APP_ID,
     //measurementId: "G-Q7PC5W5GTQ"
 };
 
