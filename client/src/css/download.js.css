@@ -1,0 +1,142 @@
+#downcontainer
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img
+{
+    margin-top: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+#logoutbtn
+{
+    transition: 750ms;
+    padding:6px 20px 6px 20px;
+    background-color: #56ab2f;
+    color:ivory;
+    font-weight: bold;
+    font-size: x-large;
+    max-width: fit-content;
+    position: absolute;
+    cursor: pointer;
+}
+#logoutbtn:hover
+{
+    transition: 750ms;
+    background-color: #56eb2f;
+    color:white;
+}
+#thank
+{
+    font-weight: bolder;
+    font-size:70px;
+    color: #56ab2f;
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+}
+#begin
+{
+    color:#a8e065;
+    font-size: 40px;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+#starrate
+{
+    margin-top: 3%;
+    font-size: 70px;
+    cursor: pointer;
+}
+#rate2
+{
+    padding:5%;
+    background-image: linear-gradient(#a8e065,white);
+    font-size: 60px;
+    font-weight: bolder;
+    color:#0E751B;
+}
+#rate
+{
+    padding:5%;
+    background-image: linear-gradient(white, #a8e065);
+    font-size: 60px;
+    font-weight: bolder;
+    color:#0E751B;
+}
+#dialogcontrol
+{
+    margin-left: 80%;
+    margin-bottom: 2%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    color:#9EA5eB;
+}
+#dialogcontrol:hover
+{
+    color:#0E75DB;
+}
+#downcont #submitbtn
+{
+    transition: 750ms;
+    font-size: x-large;
+    padding:4px 10px 4px 10px;
+    border-radius: 4px;
+    color:#59F664;
+    border:2px solid #59F664;
+    width: fit-content;
+    margin-left: 7.5vw;
+    margin-bottom: 17vh;
+    cursor:pointer
+}
+#downcont #submitbtn:hover
+{
+    transition: 750ms;
+    background-color: #59F664;
+    color:white;
+}
+#downcont center div div textarea
+{
+    width:80vw;
+    border-radius:20px;
+    background-color: ivory;
+    height:250px;
+    padding:2vh 2vw 2vh 2vw;
+    border:none;
+    font-size: x-large;
+    color:gray;
+    outline: none;
+    box-shadow: none;
+    margin-top: 6%;
+}
+#reviewshead
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color:#0E751B;
+    margin-left: 7.4vw;
+    margin-bottom: 4vh;
+}
+@media screen and (max-width:600px)
+{
+    #thank
+    {
+        font-size:xx-large;
+        margin-top: 15vh;
+        margin-bottom: 3vh;
+    }
+    #begin
+    {
+        color:#a8e065;
+        font-size: x-large;
+        margin-top: 2vh;
+        margin-bottom: 6vh;
+    }
+    #rate,#starrate,#rate2,#reviewshead
+    {
+        font-size: xx-large;
+    }
+}

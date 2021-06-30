@@ -1,0 +1,100 @@
+.cardview
+{
+    transition: 500ms;
+    padding:10px;
+    box-shadow: 0px 0px 3px 1px lightgray;
+    margin: 0px 0vw 4vh 1vw;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 650px;
+}
+.cardview:hover
+{
+    transition: 500ms;
+    box-shadow: 0px 0px 5px 2px lightgray;
+}
+.cardview img
+{
+    width:98%;
+}
+.cardview .tagcontainer
+{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: auto auto;
+}
+.cardview .tagcontainer .tag
+{
+    background-color: #56ab2f;
+    margin: 1px 4px 4px 4px;
+    color:white;
+}
+.cardview .cardhead
+{
+    color: #2F4F4F;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.cardview .cardsummary
+{
+    font-size: larger;
+}
+.cardview #more
+{
+    transition: 500ms;
+    font-size: larger;
+    font-weight: bolder;
+    color:cornflowerblue;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.cardview #more:hover
+{
+    transition: 500ms;
+    cursor: pointer;
+    color: skyblue;
+}
+.cardview #postedby
+{
+    color:gray;
+    font-size: small;
+    max-width: 100%;
+    padding:6px 0px 6px 3px;
+    text-align: left;
+}
+@media screen and (max-width:850px)
+{
+    .cardview
+    {
+        max-width:94vw;
+        margin: 0px 1vw 4vh 1vw;
+        cursor: pointer;
+    }
+    .cardview .cardhead
+    {
+        color: #2F4F4F;
+        font-weight: bolder;
+        font-size: x-large;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .cardview .cardsummary
+    {
+        font-size: large;
+    }   
+    .cardview #more
+    {
+        margin-top: 8vw;
+        margin-bottom: 2vw;
+    }
+}
+@media screen and (min-width:850px)
+{
+    .cardview
+    {
+        width:30vw;
+    }
+}

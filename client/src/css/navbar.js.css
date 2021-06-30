@@ -1,0 +1,131 @@
+@media screen and (min-width:850px)
+{
+    .navbar
+    {
+        background-color: white;
+        opacity: 0.9;
+        position: fixed;
+        z-index: 1000;
+        height:60px;
+        width: 100vw;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+    .companylogo
+    {
+        height:50px;
+        padding-left: 20px;
+        transform: translateY(-10px);
+    }
+    .companyname
+    {
+        height:60px;
+        transform: translateY(-5px);
+    }
+    #menuicon
+    {
+        display:none;
+    }
+    #dp
+    {
+        height:50px;
+        transform: translateY(5px);
+        margin-right: 25px;
+    }
+    .navbar div #salutation
+    {
+        font-size:larger;
+        transform: translateY(15px);
+        padding-right: 50px;
+        color:#56ab2a;
+        cursor: pointer;
+    }
+    .navmenu
+    {
+        transition: 750ms;
+        font-size: xx-large;
+        font-weight: bold;
+        margin-right: 50px;
+        color:#56ab2a;
+        cursor:pointer;
+        padding-bottom: 3px;
+        height: fit-content;
+        padding: 2px 10px 2px 10px;
+        border-radius: 50px;
+    }
+    .menucontainer
+    {
+        display:flex;
+        padding-top: 10px;
+    }
+    .navmenu:hover
+    {
+        transition: 750ms;
+        color:white;
+        background-color: #56ab2f;
+    }
+}
+@media screen and (max-width:850px)
+{
+    .navbar
+    {
+        background-color: white;
+        opacity: 0.9;
+        z-index: 1000;
+        position: fixed;
+        height:40px;
+        width: 100vw;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+    .companylogo
+    {
+        height:25px;
+        transform: translateY(-7px);
+        margin-left: 10px;
+    }
+    .companyname
+    {
+        height:40px;
+    }
+    #menuicon
+    {
+        display:inline-block;
+        font-size: 30px;
+        align-self: center;
+        justify-self: center;
+        padding-right: 15px;
+        padding-left: 8px;
+    }
+    #dp
+    {
+        height:30px;
+        transform: translateY(5px);
+        margin-right: 25px;
+    }
+    .navbar div #salutation
+    {
+        font-size: large;
+        transform: translateY(10px);
+        padding-right: 20px;
+        color:#56ab2a;
+        cursor: pointer;
+    }
+    .navmenu
+    {
+        font-size: xx-large;
+        font-weight: bold;
+        margin-right: 50px;
+        color:#56ab2a;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #56ab2a;
+    }
+    .menucontainer
+    {
+        display:none;
+    }
+}

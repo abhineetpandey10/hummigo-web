@@ -1,0 +1,58 @@
+.videoplayer
+{
+    margin-top: 30vh;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url('./res/video.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 2px 2px lightgray;
+    width: 640px;
+    height:360px;
+}
+.watch
+{
+    color:#a8ed65;
+    font-size: xx-large;
+    margin-bottom: 100px;
+}
+#playbtn
+    {
+        transition: 750ms;
+        height:15%;
+        margin-top: 23%;
+        margin-left: 4%;
+        cursor: pointer;
+    }
+#playbtn:hover
+{
+    transition: 750ms;
+    box-shadow: 0px 0px 5px 3px ivory;
+    border-radius: 100%;
+}
+@media screen and (min-width:850px)
+{
+    .videoplayer
+    {
+        width: 800px;
+        height:450px;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .videoplayer
+    {
+        width: 640px;
+        height:360px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .videoplayer
+    {
+        width: 320px;
+        height:180px;
+    }
+}

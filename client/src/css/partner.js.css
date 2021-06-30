@@ -1,0 +1,225 @@
+.partner #explore
+{
+    color:#b8e0a5;
+    font-weight: bolder;
+}
+.partner #explore2
+{
+    color:#b8e0a5;
+    margin-left: 3vw;
+}
+.partner #explore2 #h,.partner .a1 .a11 #reachdesc #h
+{
+    color:#56ab2f;
+    font-weight: bolder;
+}
+.partner #explore2 #ummigo,.partner .a1 .a11 #reachdesc #ummigo
+{
+    font-weight: bold;
+    color:#a8e065;
+}
+.partner #why
+{
+    margin-top: -35vh;
+    font-size: 8vh;
+    font-weight: bolder;
+    color:steelblue
+}
+.partner .a1
+{
+    margin-top: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.partner #closer
+{
+    margin-top: -286px;
+}
+.partner .a1 .a11 #reach
+{
+    color:#56ab2f;
+    font-weight: bolder;
+    font-size: 8vh;
+}
+.partner #apply
+{
+    transition: 750ms;
+    color:white;
+    transform: translateY(-57vh);
+    font-size: xx-large;
+    font-weight: bold;
+    border:3px solid white;
+    border-radius: 4px;
+    max-width: fit-content;
+    padding:8px 20px 8px 20px;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+.partner .a1 .a11
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.partner .a1 .a11 #reachdesc
+{
+    color: #7C9163;
+    max-width: 70%;
+    font-size: xx-large;
+}
+.partner .a2
+{
+    padding: 5vh 2vw 5vh 2vw;
+    background-color: #F7F8F7;
+}
+.partner .a2 .a21
+{
+    color:#56ab2f;
+    font-size: 7vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.partner .a2 .a22
+{
+    color: #56ab2f;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+.partner .a3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5vh 2vw 5vh 2vw;
+}
+.partner .a3 .a31
+{
+    max-width: 42vw;
+    padding: 14px 4px 4px 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 4px 1px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} 
+.partner .a3 .a31 center h1
+{
+    font-size: 7vh;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color:#2f4f4f;
+}
+.partner .a3 .a31 center
+{
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:gray;
+}
+.partner .a3 img
+{
+    max-width: 95%;
+}
+.partner #apply:hover
+{
+    transition: 750ms;
+    background-color: white;
+    color:#56ab2f;
+}
+@media screen and (max-width:850px)
+{
+    .partner #explore
+    {
+        transform: translateY(-28vh);
+        font-size: x-large;
+    }
+    .partner #explore2
+    {
+        transform: translateY(-25vh);
+        font-size: large;
+    }
+    .partner #apply
+    {
+        transform: translateY(-22vh);
+        font-size: large;
+    }
+    .partner #why
+    {
+        margin-top: -17vh;
+        font-size: xx-large;
+    }
+    .partner .a1
+    {
+        flex-direction: column-reverse;
+    }
+    .partner .a1 .a11 #reach
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .partner .a1 .a11 #reachdesc
+    {
+        margin-bottom: 40px;
+        max-width: 92%;
+    }
+    .partner .a3
+    {
+        flex-direction: column;
+    }
+    .partner .a3 .a31
+    {
+        max-width: 97vw;
+    }
+    .partner #closer
+    {
+        margin-top: -145px;
+    }
+}
+@media screen and (min-width:850px)
+{
+    .partner #explore
+    {
+        transform: translateY(-78vh);
+        font-size: 8vh;
+    }
+    .partner #explore2
+    {
+        transform: translateY(-67vh);
+        font-size:6vh;
+    }
+    .partner #explore2 #h
+    {
+        font-size: 12vh;
+    }
+    .partner .a1 .a11 #reachdesc #h
+    {
+        font-size: 9vh;
+    }
+    .partner #explore2 #ummigo
+    {
+        font-size: 7vh;
+    }
+    .partner .a1 .a11 #reachdesc #ummigo
+    {
+        font-size: 4vh;
+    }
+    .partner .a1 img
+    {
+        transform: translateX(-40px);
+    }
+    .partner .a2 .a21
+    {
+        max-width: 70%;
+    }
+    .partner .a2 .a22
+    {
+        margin-top: 40px;
+        max-width: 70%;
+    }
+}

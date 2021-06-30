@@ -1,0 +1,113 @@
+.featured
+{
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 0px lightgray;
+    padding:20px 40px 20px 40px;
+    width:39vw;
+    height:25vh;
+    margin-left: 1vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.featured #head
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.featured #head img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.featured #head div #name
+{
+    color:darkslategray;
+    font-size: x-large;
+    font-weight: bold;
+}
+.featured #head div #rated
+{
+    color:gray;
+    margin-top: 20px;
+    font-size: largeer;
+}
+.featured #revtext
+{
+    color:gray;
+    font-size: large;
+    margin-top: 50px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width:600px) and (max-width:850px)
+{
+    .featured
+    {
+        width:80vw;
+        height:30vh;
+    }    
+    .featured #head img
+    {
+        height: 60px;
+        width: 60px;
+        margin-top: -13vw;
+    }
+    .featured #head div:nth-child(1)
+    {
+        transform: translateY(-80);
+    }
+    .featured #head div #name
+    {
+        font-size: larger;
+    }
+    .featured #head div #rated
+    {
+        margin-top: -40px;
+        font-size: large;
+    }
+    .featured #revtext
+    {
+        font-size: medium;
+        transform: translateY(-15vh);
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .featured
+    {
+        width:80vw;
+        height:30vh;
+    }    
+    .featured #head img
+    {
+        height: 60px;
+        width: 60px;
+        margin-top: -22vw;
+    }
+    .featured #head div:nth-child(1)
+    {
+        transform: translateY(-80);
+    }
+    .featured #head div #name
+    {
+        font-size: larger;
+    }
+    .featured #head div #rated
+    {
+        margin-top: -40px;
+        font-size: large;
+    }
+    .featured #revtext
+    {
+        font-size: medium;
+        transform: translateY(-15vh);
+        text-overflow: ellipsis;
+    }
+}

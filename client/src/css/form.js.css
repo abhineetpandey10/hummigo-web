@@ -1,0 +1,136 @@
+.form
+{
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.form .author
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: flex-start;
+}
+.form center #uploadbtn
+{
+    transition: 500ms;
+    background-color: steelblue;
+    color:white;
+    cursor: pointer;
+    padding: 3px 8px 3px 8px;
+    border-radius: 4px;
+
+}
+.form center #uploadbtn:hover
+{
+    transition: 500ms;
+    background-color:skyblue;
+}
+.form input[type=text]
+{
+    text-align: center;
+}
+.form input[type=text],.form textarea
+{
+    padding:4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid lightgray;
+    font-size: large;
+    background-color: ivory;
+    outline: none;
+    color:slategray;
+    box-shadow: none;
+}
+.form input[type=text]:focus,.form textarea:focus
+{
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    outline: none;
+    color:darkslategray;
+}
+.form #subheading
+{
+    margin-top: 30px;
+    color:#2f4f4f;
+    font-weight: bold;
+    font-size: large;
+}
+.form .author #authordetails
+{
+    display: flex;
+    flex-direction: column;
+}
+.form .author #authordetails #author
+{
+    font-size: small;
+    color:gray;
+    margin-left: 20px;
+}
+.form .author #authorname
+{
+    font-size: x-large;
+    font-weight: bold;
+    color:#2f4f4f;
+    margin-left: 20px;
+}
+.form .author .formdp
+{
+    height:40px;
+    border-radius: 100%;
+}
+.form #submitbtn
+{
+    transition: 500ms;
+    background-color: steelblue;
+    padding: 4px 10px 4px 10px;
+    color:white;
+    font-weight: bold;
+    max-width: fit-content;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.form #submitbtn:hover
+{
+    transition: 500ms;
+    background-color: cornflowerblue;
+}
+.form .formhead
+{
+    font-size: x-large;
+    font-weight: bold;
+    color:darkslategray;
+    padding: 30px 0px 30px 0px;
+}
+.form .formbody
+{
+    color:rgb(20,20,20);
+}
+@media screen and (min-width:850px)
+{
+    .form input[type=text],.form textarea
+    {
+        width:37vw;
+    }
+    .form textarea
+    {
+        height:40vh;
+    }
+}
+@media screen and (max-width:850px)
+{
+    .form input[type=text],.form textarea
+    {
+        width:77vw;
+    }
+    .form textarea
+    {
+        height:40vh;
+    }
+}

@@ -1,0 +1,42 @@
+.footer
+{
+    background-color: #646363;
+    height:fit-content;
+    display: flex;
+    padding:5%;
+    justify-content: space-between;
+}
+.footer img
+{
+    width:130px;
+    transform: translateY(-30px);
+}
+@media screen and (min-width:850px)
+{
+    #footerdiv
+    {
+        margin-right: 150px;
+    }
+    .footer
+    {
+        flex-direction: row;
+    }
+    .footer img
+    {
+        height:150px;
+        transform: translateY(-30px);
+    }
+}
+@media screen and (max-width:650px) 
+{
+    .footer
+    {
+        flex-direction: column;
+    }
+    .footer img
+    {
+        width:150px;
+        margin-top: 100px;
+        transform: translateY(-100px);
+    } 
+}
