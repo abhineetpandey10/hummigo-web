@@ -60,7 +60,7 @@ Now, go to [**MongoDB Atlas**](https://www.mongodb.com/cloud/atlas) and create a
 ***
 
 #### 1. **Blogs and Stories**
-Users can share and read Blogs and Stories about topics they are interested in. The Blogs and Stories displayed to a user are sorted in the order of their preferences, which are set according to the user's activity by analysing the content he read, upvotes or downvotes using a NLP based Machine Learning model.
+Users can share and read Blogs and Stories about topics they are interested in. The Blogs and Stories displayed to a user are sorted in the order of their preferences, which are set according to the user's activity by analysing the content he read, upvotes or downvotes using a NLP based model.
 
 ![image](https://user-images.githubusercontent.com/54185164/123969530-f1079700-d9d5-11eb-985f-a2e9e8f1daea.png)
 
@@ -77,7 +77,7 @@ Organisations that provide healthcare services, both online and offline, and are
 
 ### Credits
 ***
-The NLP based Machine Learning model used for finding out the user preferences in Blogs and Stories was created by [Varenya Srivastava](https://www.linkedin.com/in/varenya-srivastava-36438b204/). Varenya is pursuing his bachelor's in Computer Science and Engineering from IIT Kanpur. This Machine Learning Model works on the principle of a modified version of the Rapid Automatic Keyword Extraction[RAKE, Rose, et al.] called FRAKE[Salmasi, et al]. The research paper can be found at https://arxiv.org/abs/2104.04830.
+The NLP based model used for finding out the user preferences in Blogs and Stories was created by [Varenya Srivastava](https://www.linkedin.com/in/varenya-srivastava-36438b204/). Varenya is pursuing his bachelor's in Computer Science and Engineering from IIT Kanpur. This Machine Learning Model works on the principle of a modified version of the Rapid Automatic Keyword Extraction[RAKE, Rose, et al.] called FRAKE[Salmasi, et al]. The research paper can be found at https://arxiv.org/abs/2104.04830.
 
 ### Deployment
 ***
