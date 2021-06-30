@@ -40,7 +40,7 @@ Now, open the command terminal, navigate into the directory where you cloned thi
 * Now, navigate into the **server** folder by using the command **`cd ../server`**, and run the command **`npm install`**. After that, navigate into the **server-2** folder by using the command **`cd ../server-2`**, and run the command **`npm install`**. This would install all the required dependencies for the server side of the project.
 
 
-You need to create a firebase project and thos webapp to that firebase project. You may look [**here**](https://firebase.google.com/docs/web/setup) for more details on that. Once that is done, you'll get the details of your firebase config object.
+You need to create a firebase project and register this webapp on that firebase project. You may look [**here**](https://firebase.google.com/docs/web/setup) for more details on that. Once that is done, you'll get the details of your firebase config object.
 
 Copy those details, and then in the **hummigo-web** directory, navigate to **client/src/services** and open the **firebase.js** file. In the **firebase.js** file, replace the firebase Config Object details with those of your own.
 
